@@ -1,0 +1,27 @@
+{
+  "name": "parcel-transformer-strip-jsonc",
+  "version": "0.1.0",
+  "description": "Simple parcel transformer to convert jsonc to json using https://www.npmjs.com/package/strip-json-comments . No source map support.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xlf1024/parcel-transformer-strip-jsonc.git"
+  },
+  "keywords": [
+    "parcel",
+    "jsonc"
+  ],
+  "author": "xlf1024",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xlf1024/parcel-transformer-strip-jsonc/issues"
+  },
+  "homepage": "https://github.com/xlf1024/parcel-transformer-strip-jsonc#readme",
+  "dependencies": {
+    "parcel": "^2.0.0-beta.1",
+    "strip-json-comments": "^3.1.1"
+  }
+}
