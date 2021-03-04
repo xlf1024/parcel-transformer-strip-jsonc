@@ -23,5 +23,8 @@
   "dependencies": {
     "parcel": "^2.0.0-beta.1",
     "strip-json-comments": "^3.1.1"
+  },
+  "engines": {
+    "parcel": ">=2.0.0-nightly"
   }
 }
