@@ -1,7 +1,7 @@
-import { Transformer } from "@parcel/plugin";
-import { stripJsonComments } from "strip-json-comments";
+const { Transformer } = require("@parcel/plugin");
+const stripJsonComments = require("strip-json-comments");
 
-export default new Transformer({
+module.exports = new Transformer({
   async transform({ asset, config, logger, resolve, options }) {
     let text = await asset.getCode();
     transformed = stripJsonComments(text);
